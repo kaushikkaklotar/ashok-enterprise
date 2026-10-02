@@ -16,10 +16,16 @@ Product links and the enquiry form open WhatsApp for +91 9904262935. The form pr
 
 ## Assets
 
-The supplied Ashoklogo.png is retained as `public/logo.png`. Product photography is sourced from the user-provided reference site https://homeessentials.in/ and used to illustrate product categories; specific inventory has not been confirmed. Replace category photography with actual Ashok Enterprise product photos when supplied.
+The supplied Ashok logo is stored as `public/logo.png`. Product images for the full catalogue are stored locally in `public/images/products/rs/` and `public/images/products/supreme/`. The catalogue data is in `app/rs-reference-products.json` and `app/supreme-reference-products.json`. Catalogue images came from the supplier reference sites; confirm publication rights before using them commercially. Listed references do not establish availability or inventory.
 
 Reference collections: `/collections/food-storage-containers`, `/collections/bins-boxes-and-baskets`, `/collections/lunch-boxes`.
 
 ## Accessibility and motion
 
 Semantic sections, labelled inputs, keyboard-accessible navigation, native FAQ details, focus styles and a skip link are included. Scroll reveals and hover transitions respect reduced-motion preferences.
+
+## Deployment
+
+GitHub repository: https://github.com/kaushikkaklotar/ashok-enterprise (production branch: `main`).
+
+Vercel project: `kaushikkaklotar4444-4414/ashok-enterprise`. Commits pushed to `main` trigger a production deployment. Live site: https://ashok-enterprise.vercel.app/.
